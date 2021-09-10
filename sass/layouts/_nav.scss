@@ -1,0 +1,58 @@
+.gnav {
+
+    &__nav {
+        display: flex;
+    }
+
+    &__list {
+        padding: 0 24px 0 24px;
+        transition: .4s;
+
+        &:hover {
+            opacity: .5;
+            transition: .4s;
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+        color: #000;
+    }
+
+    &__about {
+        position: relative;
+
+        &:hover {
+            opacity: 1;
+        }
+
+        &:hover .gnav__subnav {
+            height: 100px;
+        }
+    }
+
+    &__span {
+        margin-left: 6px;
+    }
+
+    &__subnav {
+        position: absolute;
+        top: 68px;
+        left: 0;
+        transition: .4s;
+        height: 0;
+        overflow: hidden;
+    }
+
+    &__sublink {
+        width: 12rem;
+        line-height: 5rem;
+        text-align: center;
+        display: block;
+        background: rgba(255, 255, 255, 0.644);
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        transition: .4s;
+    }
+
+}

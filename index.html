@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>Food Truck ゆらぎ</title>
+  <meta name="keywords" content="ここに検索ワードが入ります">
+  <meta name="description" content="ここに説明文が入ります">
+  <link href="css/style.css" rel="stylesheet" media="all">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header id="header" class="header">
+      <a href="index.html" class="header__link">
+        <h1 class="header__ttl">
+          <p class="header__sub1">FOOD TRUCK</p>
+          <p class="header__sub2">ゆらぎ</p>
+        </h1>
+        <p class="header__logo"><img src="images/logo.png" alt="logo" class="header__img"></p>
+      </a>
+      <nav id="gnav" class="gnav">
+        <ul class="gnav__nav">
+          <li class="gnav__list"><a href="#" class="gnav__link">ホーム</a></li>
+          <li class="gnav__list gnav__about">
+            <a href="#" class="gnav__link">ゆらぎについて<span class="gnav__span">∨</span></a>
+            <ul class="gnav__subnav">
+              <li class="gnav__sublist"><a href="about.html" class="gnav__sublink">ゆらぎの思い</a></li>
+            </ul>
+          </li>
+          <li class="gnav__list"><a href="#sec2" class="gnav__link">お品書き</a></li>
+          <li class="gnav__list gnav__about">
+            <a href="#sec3" class="gnav__link">スケジュール<span class="gnav__span">∨</span></a>
+            <ul class="gnav__subnav">
+              <li class="gnav__sublist"><a href="places.html" class="gnav__sublink">出店場所情報</a></li>
+            </ul>
+          </li>
+          <li class="gnav__list"><a href="#sec5" class="gnav__link">ギャラリー</a></li>
+          <li class="gnav__list"><a href="contact.html" class="gnav__link">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section id="mv" class="mv">
+        <div class="swiper-container swipermv__container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper swipermv__wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide swipermv__slide01">
+              <img src="images/mv1.jpg" alt="truck" class="swipermv__img">
+            </div>
+            <div class="swiper-slide swipermv__slide02">
+              <img src="images/mv2.jpg" alt="truck" class="swipermv__img">
+            </div>
+            <div class="swiper-slide swipermv__slide03">
+              <img src="images/mv3.jpg" alt="truck" class="swipermv__img">
+            </div>
+            <div class="swiper-slide swipermv__slide04">
+              <img src="images/mv4.jpg" alt="truck" class="swipermv__img">
+            </div>
+          </div>
+          <div class="mv__unit">
+            <p class="mv__txt1">北海道ニセコ町発、</p>
+            <p class="mv__txt2">人にも環境にも優しいフードトラック。</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="sec1" class="sec1">
+        <p class="sec1__pic1 fadein"><img src="images/sec1_1.jpg" alt="トラック内" class="sec1__img1"></p>
+        <p class="sec1__pic2 fadein"><img src="images/sec1_2.jpg" alt="お弁当" class="sec1__img2"></p>
+        <div class="sec1__unit fadein">
+          <h2 class="sec1__ttl">北海道ニセコ町発、<br>人にも環境にも優しいフードトラック。</h2>
+          <p class="sec1__txt">地元北海道の食材をふんだんに使い、<br>一品一品心を込めて作るお惣菜。</p>
+          <p class="sec1__txt">おいしいごはんを通して地域とつながりたい。<br>思わず『笑顔』になるような<br>やさしいお弁当を作っています。</p>
+          <p class="sec1__txt">ぜひ一度お立ち寄りください。<br>こころよりお待ちしております。</p>
+        </div>
+      </section>
+
+      <section id="sec2" class="sec2">
+        <div class="sec2__ttlwrap">
+          <h2 class="sec2__ttl">こころを込めたお弁当<span class="sec2__line"></span></h2>
+        </div>
+        <div class="sec2__wrap">
+          <div class="sec2__unit">
+            <p class="sec2__pic"><img src="images/sec2_1.jpg" alt="角煮弁当" class="sec2__img"></p>
+            <p class="sec2__sub">やわらか角煮弁当</p>
+            <p class="sec2__txt">豚バラを土鍋でじっくり柔らかく煮込みました。余計な脂を煮こぼして黒糖とお酒で優しく沖縄風に仕上げています。</p>
+            <div class="sec2__list">
+              <p class="sec2__price"><span class="sec2__span">大</span>1000円</p>
+              <p class="sec2__price"><span class="sec2__span">中</span>800円</p>
+              <p class="sec2__price"><span class="sec2__span">小</span>600円</p>
+            </div>
+          </div>
+          <div class="sec2__unit">
+            <p class="sec2__pic"><img src="images/sec2_2.jpg" alt="煮魚弁当" class="sec2__img"></p>
+            <p class="sec2__sub">旬の魚煮付弁当</p>
+            <p class="sec2__txt">旬のお魚を和だしで丁寧に炊きました。魚と一緒に味の染みた焼き豆腐を添えてます。魚の味と和だしの香りを大事に仕上げたお弁当です。</p>
+            <div class="sec2__list">
+              <p class="sec2__price"><span class="sec2__span">大</span>1000円</p>
+              <p class="sec2__price"><span class="sec2__span">中</span>800円</p>
+              <p class="sec2__price"><span class="sec2__span">小</span>600円</p>
+            </div>
+          </div>
+          <div class="sec2__unit">
+            <p class="sec2__pic"><img src="images/sec2_3.jpg" alt="お惣菜" class="sec2__img"></p>
+            <p class="sec2__sub">おばんざい5種盛り合わせ</p>
+            <p class="sec2__txt">おかずだけ5種類が入ったお惣菜盛り合わせです。お肉とお魚、野菜がバランスよく入っています。</p>
+            <div class="sec2__list">
+              <p class="sec2__price">1200円</p>
+            </div>
+          </div>
+          <div class="sec2__unit">
+            <p class="sec2__pic"><img src="images/sec2_4.jpg" alt="鯖寿司" class="sec2__img"></p>
+            <p class="sec2__sub">焼き鯖寿司</p>
+            <p class="sec2__txt">北海道ニセコ町の感謝米と雑穀のシャリに大葉を挟み、香ばしく焼いた鯖のせて巻いたお寿司です。</p>
+            <div class="sec2__list">
+              <p class="sec2__price">450円</p>
+            </div>
+          </div>
+          <div class="sec2__unit">
+            <p class="sec2__pic"><img src="images/sec2_5.jpg" alt="だし巻きサンド" class="sec2__img"></p>
+            <p class="sec2__sub">だし巻きサンド</p>
+            <p class="sec2__txt">北海道ニセコ町の感謝米と雑穀のシャリに大葉を挟み、香ばしく焼いた鯖のせて巻いたお寿司です。</p>
+            <div class="sec2__list">
+              <p class="sec2__price">450円</p>
+            </div>
+          </div>
+          <div class="sec2__unit">
+            <p class="sec2__pic"><img src="images/sec2_6.jpg" alt="会食弁当" class="sec2__img"></p>
+            <p class="sec2__sub">会食弁当</p>
+            <p class="sec2__txt">北海道ニセコ町の感謝米と雑穀のシャリに大葉を挟み、香ばしく焼いた鯖のせて巻いたお寿司です。</p>
+            <div class="sec2__list">
+              <p class="sec2__price">450円</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="sec3" class="sec3">
+        <h2 class="sec3__ttl">出店スケジュール<span class="sec3__line"></span></h2>
+        <p class="sec3__pic"><img src="images/calendar.png" alt="カレンダー" class="sec3__img"></p>
+        <div class="sec3__unit">
+          <div class="sec3__places">
+            <p class="sec3__name"><a href="places.html#sec1" class="sec3__link1">ニセコ</a></p>
+            <p class="sec3__spot">綺羅の湯</p>
+          </div>
+          <div class="sec3__places">
+            <p class="sec3__name"><a href="places.html#sec2" class="sec3__link2">喜茂別</a></p>
+            <p class="sec3__spot">Aマート</p>
+          </div>
+          <div class="sec3__places">
+            <p class="sec3__name"><a href="places.html#sec3" class="sec3__link3">苫小牧</a></p>
+            <p class="sec3__spot">キラキラ公園 / 北洋銀行中央支店 / dogrunKEN +</p>
+          </div>
+          <div class="sec3__places">
+            <p class="sec3__name"><a href="places.html#sec4" class="sec3__link4">HANAZONO</a></p>
+            <p class="sec3__spot">スキー場入り口横</p>
+          </div>
+          <div class="sec3__places">
+            <p class="sec3__name"><a href="places.html#sec5" class="sec3__link5">蘭越</a></p>
+            <p class="sec3__spot">湯の里 / Aマート</p>
+          </div>
+          <div class="sec3__places">
+            <p class="sec3__name"><a href="places.html#sec6" class="sec3__link6">その他</a></p>
+            <p class="sec3__spot">カレンダー詳細をご確認ください。</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="sec4" class="sec4">
+        <a href="#" class="sec4__link">
+          <p class="sec4__pic"><img src="images/sec4.jpg" alt="お問い合わせ" class="sec4__img"></p>
+        </a>
+        <div class="sec4__unit">
+          <h2 class="sec4__ttl">お問い合わせ</h2>
+          <p class="sec4__txt">会議弁当や大量注文、特別な日のお弁当など、ご要望あればお気軽にメッセージください。<br>
+            お弁当のメニューやアレルギーなど、ご相談いただければ対応いたします。</p>
+        </div>
+      </section>
+
+      <section id="sec5" class="sec5">
+        <h2 class="sec5__ttl">instagram @yuragi_2020</h2>
+        <div class="swiper-container swiper01__container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper swiper01__wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide swiper01__slide01">
+              <a href="https://www.instagram.com/yuragi_2020/?hl=ja" class="swiper01__link" target="_blank">
+                <img src="images/insta1.jpg" alt="insta" class="swiper01__img">
+                <i class="fas fa-external-link-alt fa-3x swiper01__icon"></i>
+              </a>
+            </div>
+            <div class="swiper-slide swiper01__slide02">
+              <a href="https://www.instagram.com/yuragi_2020/?hl=ja" class="swiper01__link" target="_blank">
+                <img src="images/insta2.jpg" alt="insta" class="swiper01__img">
+                <i class="fas fa-external-link-alt fa-3x swiper01__icon"></i>
+              </a>
+            </div>
+            <div class="swiper-slide swiper01__slide03">
+              <a href="https://www.instagram.com/yuragi_2020/?hl=ja" class="swiper01__link" target="_blank">
+                <img src="images/insta3.jpg" alt="insta" class="swiper01__img">
+                <i class="fas fa-external-link-alt fa-3x swiper01__icon"></i>
+              </a>
+            </div>
+            <div class="swiper-slide swiper01__slide04">
+              <a href="https://www.instagram.com/yuragi_2020/?hl=ja" class="swiper01__link" target="_blank">
+                <img src="images/insta4.jpg" alt="insta" class="swiper01__img">
+                <i class="fas fa-external-link-alt fa-3x swiper01__icon"></i>
+              </a>
+            </div>
+            <div class="swiper-slide swiper01__slide05">
+              <a href="https://www.instagram.com/yuragi_2020/?hl=ja" class="swiper01__link" target="_blank">
+                <img src="images/insta5.jpg" alt="insta" class="swiper01__img">
+                <i class="fas fa-external-link-alt fa-3x swiper01__icon"></i>
+              </a>
+            </div>
+            <div class="swiper-slide swiper01__slide06">
+              <a href="https://www.instagram.com/yuragi_2020/?hl=ja" class="swiper01__link" target="_blank">
+                <img src="images/insta6.jpg" alt="insta" class="swiper01__img">
+                <i class="fas fa-external-link-alt fa-3x swiper01__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <a href="#" class="footer__top">
+          <p class="footer__logo"><img src="images/logo_white.png" alt="logo" class="footer__img"></p>
+          <div class="footer__ttl">
+            <p class="footer__sub1">FOOD TRUCK</p>
+            <p class="footer__sub2">ゆらぎ</p>
+          </div>
+        </a>
+        <div class="footer__wrap1">
+          <div class="footer__map1">
+            <a href="#sec1" class="footer__pagemap">ゆらぎについて</a>
+            <a href="#sec2" class="footer__pagemap">お品書き</a>
+            <a href="#sec3" class="footer__pagemap">スケジュール</a>
+            <a href="#sec4" class="footer__pagemap">お問い合わせ</a>
+            <a href="#sec5" class="footer__pagemap">ギャラリー</a>
+          </div>
+          <p class="footer__map2">
+            <a href="about.html" class="footer__pagemap">ゆらぎの思い</a>
+            <a href="places.html" class="footer__pagemap">出店場所情報</a>
+            <a href="contact.html" class="footer__pagemap">お問い合わせフォーム</a>
+          </p>
+        </div>
+      </div>
+      <div class="footer__wrap2">
+        <div class="footer__unit">
+          <p class="footer_icon">
+            <a href="https://line.me/R/ti/p/%40" class="footer__line" target="_blank">
+              <i class="fab fa-line fa-2x"></i>
+            </a>
+          </p>
+          <p class="footer_icon">
+            <a href="https://www.instagram.com/yuragi_2020/?hl=ja" class="footer__insta" target="_blank">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+          </p>
+          <p class="footer_icon">
+            <a href="https://www.facebook.com/Food-Truck-Yuragi-105525021629418" class="footer__fb" target="_blank">
+              <i class="fab fa-facebook-square fa-2x"></i>
+            </a>
+          </p>
+        </div>
+        <p class="footer__copyright">
+          <small class="footer__small">&copy;Food Truck Yuragi 2020</small>
+        </p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- jQuery本体 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/common/fadeIn.js"></script>
+  <script src="js/common/nav.js"></script>
+  <script src="js/common/resizeHeader.js"></script>
+  <script src="js/mvSwiper.js"></script>
+  <script src="js/instaSwiper.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+.wrapper {
+    font-family: 'Noto Serif JP', serif;
+    letter-spacing: 0.2rem;
+    font-weight: normal;
+}
+
+@keyframes fadeIn {
+    100% {
+        opacity: 1;
+    }
+}
+
+.mainsec1 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 120px 0 200px 0;
+    opacity: 0;
+    animation: fadeIn 4s ease 0s;
+    animation-fill-mode: forwards;
+
+    &__ttl {
+        writing-mode: vertical-rl;
+        line-height: 3;
+        margin: 120px auto;
+        font-size: 38px;
+        font-weight: lighter;
+    }
+
+    &__pic {
+        width: 1370px;
+        height: calc(100vh - 6rem);
+    }
+
+    &__img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.mainsec2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+
+    &__unit {
+        width: 440px;
+        margin: 0 auto;
+        line-height: 2;
+    }
+
+    &__ttl {
+        font-size: 30px;
+        margin-bottom: 36px;
+    }
+
+    &__txt {
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+
+    &__pic {
+        width: 850px;
+        height: 980px;
+    }
+
+    &__img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.mainsec3 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+
+    &__unit1 {
+        width: 440px;
+        margin: 0 auto;
+        line-height: 2;
+    }
+
+    &__ttl {
+        font-size: 30px;
+        margin-bottom: 36px;
+    }
+
+    &__txt {
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+    
+    &__pic1 {
+        width: 820px;
+        height: 540px;
+        margin-bottom: 48px;
+    }
+    
+    &__pic2 {
+        margin-left: 360px;
+        width: 560px;
+        height: 335px;
+    }
+
+    &__img1 {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    &__img2 {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: bottom center;
+    }
+}

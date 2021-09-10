@@ -1,0 +1,64 @@
+.wrapper {
+    font-family: 'Noto Serif JP', serif;
+    letter-spacing: 0.2rem;
+}
+
+@keyframes fadeIn {
+    100% {
+        opacity: 1;
+    }
+}
+
+.contact {
+
+    text-align: center;
+    margin: 150px 0 150px 0;
+    opacity: 0;
+    animation: fadeIn 4s ease 0s;
+    animation-fill-mode: forwards;
+    
+    &__ttl {
+        font-size: 38px;
+        margin-bottom: 50px;
+        font-weight: lighter;
+    }
+
+    &__pic {
+        width: 80%;
+        height: calc(100vh - 17rem);
+        margin: 0 auto 100px auto;
+    }
+
+    &__img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        opacity: bottom center;
+    }
+
+    &__txt {
+        line-height: 3;
+        margin-bottom: 100px;
+    }
+
+    &__unit {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__detail {
+        border: 1px solid #000;
+        padding: 20px 48px;
+        text-decoration: none;
+        color: #000;
+        margin: 0 36px;
+        transition: .4s;
+
+        &:hover {
+            border: 1px solid #fff;
+            color: #fff;
+            background: #1B2B38;
+            transition: .4s;
+        }
+    }
+}

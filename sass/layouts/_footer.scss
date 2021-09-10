@@ -1,0 +1,131 @@
+.footer {
+
+    padding: 75px 100px;
+    background: #1B2B38;
+    font-weight: normal;
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 75px;
+    }
+
+    &__top {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        margin-right: 100px;
+        transition: .4s;
+
+        &:hover {
+            opacity: .5;
+            transition: .4s;
+        }
+    }
+
+    &__logo {
+        height: 70px;
+        width: 70px;
+        margin-right: 12px;
+    }
+
+    &__img {
+        height: 100%;
+        width: 100%;
+    }
+
+    &__sub1 {
+        font-size: 12px;
+        text-align: center;
+        padding-bottom: 6px;
+        font-weight: normal;
+    }
+
+    &__sub2 {
+        font-size: 36px;
+        font-weight: normal;      
+    }
+
+    &__wrap1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__pagemap {
+        font-size: 14px;
+        text-decoration: none;
+        line-height: 3rem;
+        margin-right: 24px;
+        color: #fff;
+        transition: .4s;
+
+        &:hover {
+            opacity: .5;
+            transition: .4s;
+        }
+    }
+
+    &__wrap2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &::before {
+            content: "";
+            display: block;
+            height: 1px;
+            width: 80%;
+            margin: 0 auto;
+            background: #fff;
+            margin-bottom: 75px;
+        }
+    }
+
+    &__unit {
+        display: flex;
+        margin-bottom: 36px;
+    }
+
+    &__line {
+        margin-right: 24px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        transition: .4s;
+        
+        &:hover {
+            color: #1dcd00;
+            transition: .4s;
+        }
+    }
+    
+    &__insta {
+        margin-right: 24px;
+        text-decoration: none;
+        color: rgb(255, 251, 251);
+        transition: .4s;
+
+        &:hover {
+            color: #DD2A7B;
+            transition: .4s;
+        }
+    }
+
+    &__fb {
+        text-decoration: none;
+        color: rgb(255, 251, 251);
+        transition: .4s;
+
+        &:hover {
+            color: #3B5998;
+            transition: .4s;
+        }
+    }
+
+    &__small {
+        font-size: 12px;
+        color: rgb(255, 255, 255);
+    }
+
+}
